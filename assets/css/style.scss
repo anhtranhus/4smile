@@ -1105,7 +1105,7 @@ Main Slides Area CSS
         background-image: url(../../assets/images/main-slides/slides-bg2.jpg);
     }
     &.item-bg3 {
-        background-image: url(../../assets/images/main-slides/slides-bg3.jpg);
+        background-image: url(../images/main-slides/slides-bg1.jpg);
     }
     &.item-bg4 {
         background-image: url(../../assets/images/main-slides/slides-bg4.jpg);
@@ -1157,6 +1157,31 @@ Main Slides Area CSS
         span {
             color: $main-color;
         }
+
+        text-shadow: 1px 1px 0 #000,
+        -1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000,
+        0px 1px 0 #000,
+        0px -1px 0 #000,
+        -1px 0px 0 #000,
+        1px 0px 0 #000,
+        2px 2px 0 #000,
+        -2px 2px 0 #000,
+        2px -2px 0 #000,
+        -2px -2px 0 #000,
+        0px 2px 0 #000,
+        0px -2px 0 #000,
+        -2px 0px 0 #000,
+        2px 0px 0 #000,
+        1px 2px 0 #000,
+        -1px 2px 0 #000,
+        1px -2px 0 #000,
+        -1px -2px 0 #000,
+        2px 1px 0 #000,
+        -2px 1px 0 #000,
+        2px -1px 0 #000,
+        -2px -1px 0 #000;
     }
     p {
         color: $black-color;

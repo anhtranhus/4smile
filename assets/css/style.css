@@ -125,6 +125,26 @@ img {
   padding-bottom: 100px;
 }
 
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
 .pb-70 {
   padding-bottom: 70px;
 }
@@ -1149,7 +1169,7 @@ Search Modal Style CSS
 Main Slides Area CSS
 =================================================*/
 .main-slides-item {
-  background-image: url(../../assets/images/main-slides/slides-bg1.jpeg);
+  background-image: url(../images/main-slides/slides-bg1.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1160,39 +1180,19 @@ Main Slides Area CSS
 }
 
 .main-slides-item.item-bg2 {
-  background-image: url(../../assets/images/main-slides/slides-bg2.jpeg);
+  background-image: url(../images/main-slides/slides-bg2.jpg);
 }
 
 .main-slides-item.item-bg3 {
-  background-image: url(../../assets/images/main-slides/slides-bg3.jpeg);
-}
-
-.main-slides-item.item-bg4 {
-  background-image: url(../../assets/images/main-slides/slides-bg4.jpeg);
-}
-
-.main-slides-item.item-bg4 .main-slides-content {
-  max-width: 675px;
-}
-
-.main-slides-item.item-bg5 {
-  background-image: url(../../assets/images/main-slides/slides-bg5.jpeg);
-}
-
-.main-slides-item.item-bg5 .main-slides-content {
-  max-width: 675px;
-}
-
-.main-slides-item.item-bg6 {
-  background-image: url(../../assets/images/main-slides/slides-bg6.jpeg);
-}
-
-.main-slides-item.item-bg6 .main-slides-content {
-  max-width: 675px;
+  background-image: url(../images/main-slides/slides-bg3.jpg);
 }
 
 .main-slides-content {
   max-width: 630px;
+}
+
+.destiny {
+  color: red !important;
 }
 
 .main-slides-content .sub-title {
@@ -1811,7 +1811,7 @@ Overview Area CSS
 }
 
 .overview-content {
-  margin-top: -170px;
+  margin-top: -120px;
 }
 
 .overview-content .sub-title {
@@ -4891,6 +4891,13 @@ Footer Area CSS
   color: #ffffff;
 }
 
+.single-footer-widget .signature .dr-info{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
 .single-footer-widget .footer-info {
   position: relative;
   margin-top: 35px;
@@ -4908,6 +4915,13 @@ Footer Area CSS
 }
 
 .single-footer-widget .footer-info .dr-name {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.single-footer-widget .footer-info .dr-info {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 10px;
