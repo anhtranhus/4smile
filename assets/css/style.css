@@ -457,6 +457,10 @@ Middle Header Area CSS
   padding-bottom: 15px;
 }
 
+.middle-header-area img {
+  height: 48px !important;
+}
+
 .middle-header h1 {
   font-size: 45px;
   margin-bottom: 0;
@@ -4863,6 +4867,10 @@ Footer Area CSS
 
 .single-footer-widget {
   margin-bottom: 30px;
+}
+
+.single-footer-widget img {
+  height: 56px !important;
 }
 
 .single-footer-widget h2 {
