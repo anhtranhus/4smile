@@ -4866,7 +4866,7 @@ Footer Area CSS
 }
 
 .single-footer-widget {
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 
 .single-footer-widget img {
@@ -4900,7 +4900,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .signature .dr-info{
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   margin-bottom: 10px;
   color: #ffffff;
@@ -4971,6 +4971,7 @@ Footer Area CSS
   color: #ffffff;
   font-weight: 400;
   position: relative;
+  font-size: 12px;
 }
 
 .single-footer-widget .quick-links li a:hover {
